@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+text-decoration: none;
+list-style: none;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+   
+}
+header img{
+    width: 250px;
+
+}
+header ul{
+    display: flex;
+    gap: 20px;
+    flex-direction: row-reverse;
+
+
+}
+
+header ul li{
+ font-size: 20px;
+ font-weight: 900;
+ color: rgba(0, 0, 255, 0.806);
+ font-weight: 900;
+
+
+}
+header ul li:hover{
+color: rgba(255, 21, 0, 0.747);
+text-decoration: underline;
+padding-bottom: 5px;
+cursor: pointer;
+}
+header ul li a{
+ 
+  text-decoration: none;
+
+}
+header ul li a:hover{
+  transition: 0.5s;
+  padding-bottom: 20px;
+  color: red;
+}
+/* header ul li a:focus{
+   border-bottom: solid 4px red;
+    color: red;
+}  */
+header i{
+    background-color: blue;
+    border-radius: 10px;
+    padding: 15px;
+    color: aliceblue;
+
+}
+header i:hover{
+   background-color: rgb(255, 179, 0);
+   transition: 0.5s;
+
+}
+.btn-1{
+    background-color: rgb(255, 64, 0);
+   padding: 20px  25px;
+   color: #eee;
+   border-radius: 20px;
+   border: none;
+
+    
+}
+.btn-1:hover{
+    background-color: rgba(0, 0, 255, 0.717);
+    transition: 0.5s;
+}
+/* end header */
+
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding-top: 30px;
+    width: 95%;
+    margin: auto;
+padding-bottom: 100px;
+
+}
+ .content100 h1{
+    font-size: 60px;
+    padding-bottom: 20px;
+    font-weight: 900;
+    color: rgb(61, 61, 249);
+    text-align: right;
+
+}
+.content100 h3{
+    font-size: 20px;
+    font-weight: 800;
+    text-align: right;
+    padding-bottom: 20px;
+
+}
+.form{
+    background-color: rgb(255, 72, 0);
+    padding: 20px 25%;
+
+}
+.form input{
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: none;
+
+
+}
+.btn-90:hover{
+    transform: scale(0.8);
+    transition: 0.5s;
+}
+main .imagess img{
+width: 400px;
+position: relative;
+top: 100px;
+
+}

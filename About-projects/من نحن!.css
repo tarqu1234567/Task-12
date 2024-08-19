@@ -1,0 +1,253 @@
+*{
+    padding: 0;
+    margin: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+text-decoration: none;
+list-style: none;
+
+}
+header{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+    flex-direction: row-reverse;
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+
+}
+header img{
+    width: 250px;
+
+}
+header ul{
+    display: flex;
+    gap: 20px;
+    flex-direction: row-reverse;
+
+
+}
+
+header ul li{
+ font-size: 20px;
+ font-weight: 900;
+ color: rgba(0, 0, 255, 0.806);
+ font-weight: 900;
+
+
+}
+header ul li:hover{
+color: rgba(255, 21, 0, 0.747);
+text-decoration: underline;
+padding-bottom: 5px;
+cursor: pointer;
+}
+header ul li a{
+ 
+  text-decoration: none;
+
+}
+header ul li a:hover{
+  transition: 0.5s;
+  padding-bottom: 20px;
+  color: red;
+}
+header i{
+    background-color: blue;
+    border-radius: 10px;
+    padding: 15px;
+    color: aliceblue;
+
+}
+
+header i:hover{
+   background-color: rgb(255, 179, 0);
+   transition: 0.5s;
+
+}
+.btn-1{
+    background-color: rgb(255, 64, 0);
+   padding: 20px  25px;
+   color: #eee;
+   border-radius: 20px;
+   border: none;
+
+    
+}
+.btn-1:hover{
+    background-color: rgba(0, 0, 255, 0.717);
+    transition: 0.5s;
+}
+/* end header */
+
+/* main start */
+main  {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-direction: row-reverse;
+ text-align: right;
+ padding: 4rem 3rem;
+ 
+ 
+}
+main .content h1{
+    font-size: 50px;
+    font-weight: 900;
+   
+    color: rgb(133, 133, 243);
+    
+}
+main .content h1 span{
+    color: rgb(255, 115, 0);
+}
+main .content p{
+    line-height: 25px;
+    font-weight: 900;
+
+}
+main .content .btn0{
+    padding: 1rem 3rem;
+   border-radius: 10px;
+    background-color: rgb(255, 85, 0);
+    border: none;
+    color:#eee;
+    font-size: 15px;
+    font-weight: 900;
+
+
+}
+main .content .btn0:hover{
+    background-color: blue;
+  transition: 0.5s;
+}
+main  .imgaes img{
+    width: 400px;
+
+}
+/* main end */
+/* start cards */
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    height: 90vh;
+gap: 40px;
+
+}
+.cards .card1{
+    background-color: rgba(0, 0, 255, 0.864);
+    color: #eee;
+    padding: 100px 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: right;
+
+}
+.cards .card1 h1{
+  font-size: 60px;
+  padding-bottom: 10px;
+}
+.cards .card1 h3{
+    padding-bottom: 10px;
+    font-weight: 800;
+}
+.cards .card2 h1{
+    font-size: 60px;
+    padding-bottom: 10px;
+  }
+  .cards .card2 h3{
+      padding-bottom: 10px;
+      font-weight: 800;
+  }
+.cards .card2{
+    background-color: rgba(255, 183, 0, 0.885);
+    color: #eee;
+    padding: 100px 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: right;
+
+}
+/* end cards */
+
+/* videos start */
+
+.videos video{
+ width: 90%;
+ height:90vh;
+margin-left: 70px;
+
+}
+
+/* videos end  */
+
+
+/*  start footer */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+       padding-top: 50px;
+       padding-bottom: 150px;
+
+    background-color: rgb(255, 55, 0);
+
+  }
+  .footer .foot{
+    /* width: 80%; */
+    text-align: right;
+    padding: 20px 40px;
+    color: #eee;
+ 
+
+  }
+  .footer .foot h3{
+    padding-bottom: 30px;
+    font-size: 25px;
+  padding-left: 70px;
+    font-weight: 900;
+
+  }
+  .footer .foot  p{
+    font-weight: 900;
+
+  }
+  .footer .foot  p i{
+    padding-left: 20px;
+  }
+  .footer .foot img{
+    padding-bottom: 40px;
+    width: 230px;
+  }
+  .footer .foot .icon i{
+    padding: 10px 20px;
+  }
+  .footer_botom{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+      color: #eee;
+      background-color: rgb(255, 55, 0);
+ padding-bottom: 30px;
+  }
+  .footer_botom .f{
+    display: flex;
+   gap: 30px;
+   padding-right: 40px;
+ 
+  }
+  .footer_botom .f .p{
+       border-right: solid 1px rgb(253, 253, 253);
+        padding-right: 30px;
+  }
+  .footer_botom p{
+    padding-left: 40px;
+  }
